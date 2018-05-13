@@ -1,0 +1,34 @@
+src/*.exe
+src/rothscoin
+src/rothscoind
+src/test_rothscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.rothscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+rothscoin-qt
+Rothscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+rothscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
