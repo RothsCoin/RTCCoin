@@ -4,8 +4,7 @@ Rothscoin integration/staging tree
 http://rothscoin.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2011-2014 Rothscoin Developers
+Copyright (c) 2017-2018 Rothscoin Developers
 
 What is Rothscoin?
 ----------------
