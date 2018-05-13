@@ -10,12 +10,11 @@ What is Rothscoin?
 ----------------
 
 Rothscoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2 minutes block targets
- - subsidy halves in 1314000 blocks (~5 years)
  - ~89 million total coins
-
-The rest is the same as Bitcoin.
+ - Premine 28 million coins
+ - 2 minutes block targets
  - 10 coins per block
+ - subsidy halves in 1314000 blocks (~5 years)
  - 720 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
@@ -45,7 +44,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/rothscoin-project/rothscoin/tags) are created
+completely stable. [Tags](https://github.com/rothscoin/rtccoin) are created
 regularly to indicate new official, stable release versions of Rothscoin.
 
 Testing
@@ -60,14 +59,3 @@ lots of money.
 
 Developers are strongly encouraged to write unit tests for new code, and to
 submit new unit tests for old code.
-
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./rothscoin-qt_test
-
